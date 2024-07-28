@@ -18,7 +18,7 @@ function App() {
     const turnFromStorage = window.localStorage.getItem('turn')
     return turnFromStorage ?? TURNS.X
   })
-  //null es que no hay ganador, false es que hay un empate
+  //null es que no hay ganador, false es que hay un empate.
   const [winner, setWiner] = useState(null)
 
   const resetGame = () => {
